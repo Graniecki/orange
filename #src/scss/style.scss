@@ -1,0 +1,13 @@
+$color: red;
+$blue: blue;
+
+h1 {
+  color: $color;
+  font-size: 20px;
+  display: flex;
+
+  @media (max-width: 767px) {
+    font-size: 15px;
+    color: $blue;
+  }
+}
